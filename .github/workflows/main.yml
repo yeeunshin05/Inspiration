@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Welcome to yes's profile!</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', 'Noto Sans KR', sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc);
+      color: #fff;
+    }
+
+    header {
+      text-align: center;
+      padding: 3em 1em;
+      background: url('https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin-bottom: 0.2em;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    header p {
+      font-size: 1.2em;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+    }
+
+    nav {
+      text-align: center;
+      padding: 1em;
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    nav a {
+      color: #e0e0ff;
+      margin: 0 1.5em;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffffff;
+    }
+
+    section {
+      padding: 3em 2em;
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      margin-bottom: 2em;
+      backdrop-filter: blur(5px);
+    }
+
+    h2 {
+      border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+      padding-bottom: 0.3em;
+      margin-bottom: 1em;
+    }
+
+    ul {
+      line-height: 1.8;
+      padding-left: 1.2em;
+    }
+
+    .project-item {
+      margin-bottom: 1em;
+    }
+
+    .project-item strong {
+      display: block;
+      font-size: 1.05em;
+    }
+
+    .resume-button, .english-button {
+      display: inline-block;
+      padding: 0.7em 1.5em;
+      background-color: #ffffff20;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      margin-top: 1em;
+      margin-right: 1em;
+      transition: background 0.3s;
+    }
+
+    .resume-button:hover, .english-button:hover {
+      background-color: #ffffff40;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1em;
+      margin-top: 2em;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+      object-fit: cover;
+    }
+
+    .contact-form {
+      margin-top: 2em;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 0.8em;
+      margin-bottom: 1em;
+      border: none;
+      border-radius: 8px;
+      font-family: inherit;
+    }
+
+    .contact-form button {
+      padding: 0.8em 1.5em;
+      background: #ffffff20;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    .contact-form button:hover {
+      background: #ffffff40;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1.5em;
+      background-color: rgba(0, 0, 0, 0.2);
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome to yes's profile!</h1>
+    <p>꿈과 실현 사이, 금융을 향해 나아가는 예은의 여정</p>
+  </header>
+
+  <nav>
+    <a href="#about">소개</a>
+    <a href="#projects">프로젝트</a>
+    <a href="#certificates">자격증</a>
+    <a href="#contact">연락처</a>
+    <a class="english-button" href="english.html">ENGLISH</a>
+  </nav>
+
+  <section id="about">
+    <h2>자기소개</h2>
+    <p>
+      안녕하세요! 저는 중앙대학교 경영학과에 재학 중인 신예은입니다.<br>
+      숫자를 좋아하고, 돈을 다루는 데 흥미를 느끼는 타입이에요.<br>
+      그래서 그런가 요즘은 주식 시세보다 금융권 취업 공고를 더 자주 봐요. 😉<br>
+      유쾌하지만 진지하게, 금융의 길을 밟아가고 있는 중입니다!
+    </p>
+
+  <section id="projects">
+    <h2>프로젝트 및 활동</h2>
+    <div class="project-item">
+      <strong>2024년 정기공연 기획 및 운영</strong>
+      무대 기획, 홍보, 관객 관리 등 전반적인 공연 진행 총괄
+    </div>
+    <div class="project-item">
+      <strong>생성형 AI 연구 과제 진행</strong>
+      "생성형 AI가 일상생활에 미치는 영향"이라는 주제로 팀 프로젝트 수행
+    </div>
+    <div class="project-item">
+      <strong>멘토링 대외활동 참여</strong>
+      중고등학생생 대상 전공·진로 관련 온라인 멘토링 진행
+    </div>
+    <div class="project-item">
+      <strong>어플리케이션 홍보 서포터즈 활동</strong>
+      신규 모바일 서비스 홍보 콘텐츠 제작 및 마케팅 참여
+    </div>
+    <div class="project-item">
+      <strong>서비스업 아르바이트</strong>
+      카페 및 매장에서의 고객 응대, 판매, 재고 관리 경험 보유
+    </div>
+
+    <div class="gallery">
+      <img src="https://source.unsplash.com/400x300/?finance" alt="Finance project">
+      <img src="https://source.unsplash.com/400x300/?technology" alt="AI project">
+      <img src="https://source.unsplash.com/400x300/?stage" alt="Performance project">
+    </div>
+  </section>
+
+  <section id="certificates">
+    <h2>자격증</h2>
+    <ul>
+      <li>한국사능력검정시험 2급</li>
+      <li>워드프로세서 1급</li>
+      <li>컴퓨터활용능력 1급</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>연락처</h2>
+    <p>Email: yeeun4143@gmail.com</p>
+    <p>Instagram: <a href="https://instagram.com/god_yeeun" target="_blank" style="color: #ffd;">@god_yeeun</a></p>
+
+    <div class="contact-form">
+      <form>
+        <input type="text" placeholder="이름" required />
+        <input type="email" placeholder="이메일" required />
+        <textarea rows="4" placeholder="메시지를 입력하세요..." required></textarea>
+        <button type="submit">메시지 보내기</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 신예은. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
